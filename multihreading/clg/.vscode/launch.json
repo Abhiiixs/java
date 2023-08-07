@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Bookdemo",
+      "request": "launch",
+      "mainClass": "BookPackage.Bookdemo",
+      "projectName": "clg_3c880ce7"
+    },
+    {
+      "type": "java",
+      "name": "bookdemo",
+      "request": "launch",
+      "mainClass": "bookdemo",
+      "projectName": "clg_3c880ce7"
+    },
+    {
+      "type": "java",
+      "name": "Demo",
+      "request": "launch",
+      "mainClass": "Demo",
+      "projectName": "clg_3c880ce7"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "a:/java/clg",
+      "program": "a:/java/clg/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
